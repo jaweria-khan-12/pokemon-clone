@@ -1,0 +1,501 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.nav-1{
+    background-color: #F5F5F5;
+    width: 100%;
+    height: 65px;
+    border-bottom: 2px solid #dfdcdc;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.img-1{
+    background-color: white;
+    border: 1px solid #dfdcdc;
+    width: 100px;
+    height: 64px;
+    /* box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.50); */
+}
+.edit-1{
+    left: 10px;
+    top: 10px;
+    position: relative;
+}
+.edit-1:hover{
+    cursor: pointer;
+}
+.img-2{
+    /* background-color: white; */
+    border: 1px solid #dfdcdc;
+    width: 100px;
+    height: 64px;
+}
+.edit-2{
+   position: relative;
+   top: 10px;
+   left: 7px; 
+   transition: transform 0.3s;
+}
+.edit-2:hover{
+    cursor: pointer;
+    transform: translateY(6px);
+}
+.img-3{
+    /* background-color: white; */
+    border: 1px solid #dfdcdc;
+    width: 100px;
+    height: 64px;
+}
+.edit-3{
+    position: relative;
+    top: 8px;
+    left: 10px;
+    transition: transform 0.3s;
+}
+.edit-3:hover{
+    cursor: pointer;
+    transform: translateY(6px);
+}
+.img-4{
+    /* background-color: white; */
+    /* border: 1px solid #dfdcdc; */
+    width: 185px;
+    height: 59px;
+}
+.edit-4{
+    position: relative;
+    top: 8px;
+    left: 7px;
+    width: 170px;
+    height: 47px;
+    transition: all 0.3 ease;
+}
+.edit-4:hover{
+    cursor: pointer;
+}
+.img-5{
+    /* background-color: white;
+    border: 1px solid #dfdcdc; */
+    width: 185px;
+    height: 59px;
+}
+.edit-5{
+    position: relative;
+    top: 8px;
+    left: -0.1px;
+    width: 170px;
+    height: 47px;
+}
+.edit-5:hover{
+    cursor: pointer;
+}
+.img-6{
+    /* background-color: white;
+    border: 1px solid #dfdcdc; */
+    width: 185px;
+    height: 59px;
+}
+.edit-6{
+    position: relative;
+    top: 8px;
+    left: -8px;
+    width: 170px;
+    height: 47px;
+}
+.edit-6:hover{
+    cursor: pointer;
+}
+.nav-2{
+   background-color: white;
+   width: 100%;
+   height: 90px;
+   border-bottom: 2px solid #f1eeee;
+   display: flex;
+   justify-content: center;
+   flex-direction: row;
+}
+.navimg-1{
+   background-color: #919191;
+   width: 125px;
+   height: 94px;
+   border-bottom-left-radius: 5px;
+}
+.navimg-1:hover{
+    cursor: pointer;
+}
+.text-1{
+    color: white;
+    position: relative;
+    top: 29px;
+    left: -1px;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.editing-1{
+    width: 40px;
+    height: 35px;
+    position: relative;
+    top: 10px;
+    left: 40px;
+}
+.navimg-2{
+    background-color: white;
+    width: 125px;
+    height: 89px;
+    position: relative;
+    color: #464343;
+}
+.navimg-2::after{
+    content: ""; /* Line banane ke liye empty content */
+    position: absolute;
+    bottom: -5px; /* Box ke neeche 10px ka gap */
+    left: 0;
+    width: 100%;
+    height: 6px;
+    background-color: #E3350D; /* Line ka color */
+}
+.navimg-2:hover{
+    cursor: pointer;
+    background-color: #E3350D;
+    color: white;
+}
+.text-2{
+    position: relative;
+    top: 30px;
+    left: -7px;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.editing-2{
+    width: 40px;
+    height: 35px;
+    position: relative;
+    top: 15px;
+    left: 45px;
+}
+.navimg-3{
+    background-color: white;
+    width: 125px;
+    height: 89px;
+    position: relative;
+    color: #464343;
+}
+.navimg-3::after{
+    content: ""; /* Line banane ke liye empty content */
+    position: absolute;
+    bottom: -5px; /* Box ke neeche 10px ka gap */
+    left: 0;
+    width: 100%;
+    height: 6px;
+    background-color: #EE6B2F; /* Line ka color */
+}
+.navimg-3:hover{
+    cursor: pointer;
+    background-color: #EE6B2F;
+    color: white;
+}
+.text-3{
+    position: relative;
+    top: 30px;
+    left: 2px;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.apps{
+    position: relative;
+    top: 30px;
+    left: 5px;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.editing-3{
+    width: 40px;
+    height: 35px;
+    position: relative;
+    top: 15px;
+    left: 40px;
+}
+.navimg-4{
+    background-color: white;
+    width: 125px;
+    height: 88px;
+    position: relative;
+    color: #464343;
+}
+.navimg-4::after{
+    content: ""; /* Line banane ke liye empty content */
+    position: absolute;
+    bottom: -6px; /* Box ke neeche 10px ka gap */
+    left: 0;
+    width: 100%;
+    height: 6px;
+    background-color: #E6BC2F; /* Line ka color */
+}
+.navimg-4:hover{
+    cursor: pointer;
+    background-color: #E6BC2F;
+    color: white;
+}
+.text-4{
+    position: relative;
+    top: 40px;
+    left: -20px;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+.editing-4{
+    width: 40px;
+    height: 25px;
+    position: relative;
+    top: 22px;
+    left: 40px;
+}
+.navimg-5{
+    background-color: white;
+    width: 125px;
+    height: 88px;
+    position: relative;
+    color: #464343;
+}
+.navimg-5::after{
+    content: ""; /* Line banane ke liye empty content */
+    position: absolute;
+    bottom: -6px; /* Box ke neeche 10px ka gap */
+    left: 0;
+    width: 100%;
+    height: 6px;
+    background-color: #4DAD5B; /* Line ka color */
+}
+.navimg-5:hover{
+    cursor: pointer;
+    background-color: #4DAD5B;
+    color: white;
+}
+.text-5{
+    position: relative;
+    top: 40px;
+    left: -10px;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.editing-5{
+    width: 40px;
+    height: 25px;
+    position: relative;
+    top: 22px;
+    left: 43px;
+}
+.navimg-6{
+    background-color: white;
+    width: 125px;
+    height: 88px;
+    position: relative;
+    color: #464343;
+}
+.navimg-6::after{
+    content: ""; /* Line banane ke liye empty content */
+    position: absolute;
+    bottom: -6px; /* Box ke neeche 10px ka gap */
+    left: 0;
+    width: 100%;
+    height: 6px;
+    background-color: #30A7D7; /* Line ka color */
+}
+.navimg-6:hover{
+    cursor: pointer;
+    background-color: #30A7D7;
+    color: white;
+}
+.text-6{
+    position: relative;
+    top: 38px;
+    left: 5px;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.editing-6{
+    width: 40px;
+    height: 25px;
+    position: relative;
+    top: 22px;
+    left: 43px;
+}
+.navimg-7{
+    background-color:white;
+    width: 125px;
+    height: 88px;
+    position: relative;
+    color: #464343;
+}
+.navimg-7::after{
+    content: ""; /* Line banane ke liye empty content */
+    position: absolute;
+    bottom: -6px; /* Box ke neeche 10px ka gap */
+    left: 0;
+    width: 100%;
+    height: 6px;
+    background-color: #1B53BA; /* Line ka color */
+    border-bottom-right-radius: 5px;
+}
+.navimg-7:hover{
+    cursor: pointer;
+    background-color: #1B53BA;
+    color: white;
+}
+.text-7{
+    position: relative;
+    top: 40px;
+    left: 3px;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.editing-7{
+    width: 40px;
+    height: 25px;
+    position: relative;
+    top: 22px;
+    left: 43px;
+}
+.bodycolor{ 
+    width: 100%;
+    height: 900px;
+    border-left: 35px solid #323232;
+    border-right: 35px solid #323232;
+    border-bottom: 35px solid #323232;
+    position: relative;
+}
+.background-img{
+    width: 1277px;
+    height: 900px;
+    position: absolute;
+    z-index: -1;
+}
+.whitecolor{
+    position: relative;
+    background-color: white;
+    width: 920px;
+    height: 800px;
+    left: 185px;
+    top: -83px;
+    border-radius: 10px;
+    position: absolute;
+    z-index: -1;
+}
+.login-btn{
+    background-color: #54B564;
+    width: 60px;
+    height: 90px;
+    position: relative;
+    top: 20px;
+    color: white;
+    border-top-right-radius: 15px;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+}
+.login-text{
+    position: relative;
+    top: 55px;
+    font-family: sans-serif;
+    font-size: 13px;
+    left: 15px;
+}
+.icon{
+    color: white;
+    position: relative;
+    top: 20px;
+    font-size: 25px;
+    left: 15px;
+}
+.icon-box{
+    background-color: #535050;
+    width: 60px;
+    height: 60px;
+    position: relative;
+    top: 55px;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+}
+.icon-box:hover{
+    cursor: pointer;
+    background-color: #30A7D7;
+    transition: 0.3s;
+}
+.login-icon{
+    position: relative;
+    top: 10px;
+    left: 23px;
+    color: rgb(233, 230, 230);
+}
+.login-btn:hover{
+    cursor: pointer;
+    background-color: #369143;
+    transition: 0.3s;
+}
+.card-1{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    position: relative;
+    top: 130px;
+    left: 20px;
+    z-index: 10;
+    width: 578px;
+    height: 300px;
+}
+.heading-1{
+    color: white;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.heading-2{
+    color: #30b5e9;
+    position: relative;
+    top: 30px;
+    left: 20px;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.headings{
+    background-color: #1847D7;
+    width: 578px;
+    height: 120px;
+    position: relative;
+    top: 125px;
+    left: 20px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.card-2{
+    width: 280px;
+    height: 150px;
+    left: 620px;
+    position: relative;
+    top: -293px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.card-2text{
+    background-color: #FF90C4;
+    width: 280px;
+    height: 120px;
+    position: relative;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-family: "Flexo-Medium", arial, sans-serif;
+    top: -297px;
+    left: 620px;
+}
+.card-2heading{
+    position: relative;
+    top: 30px;
+    left: 40px;
+}
+.card-2heading:hover{
+    cursor: pointer;
+    background-color: #FF2A8E;
+}
